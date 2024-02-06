@@ -68,4 +68,16 @@ public class Instructor {
     public void setCourses(List<String> courses) {
         this.courses = courses;
     }
+
+    @Override
+    public String toString() {
+        return "Instructor{" +
+                "name='" + name + '\'' +
+                ", yearsOfExperience=" + yearsOfExperience +
+                ", title='" + title + '\'' +
+                ", gender='" + gender + '\'' +
+                ", onlineCourses=" + onlineCourses +
+                ", courses=" + courses +
+                '}';
+    }
 }

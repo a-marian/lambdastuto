@@ -13,10 +13,10 @@ public class Instructors {
                 "Software Analyst", "F", true,
                 Arrays.asList("Scrum", "Agile development", ""));
         Instructor instructor3 = new Instructor( "Teodoro", 6,
-                "Manager", "M", true,
+                "Manager", "M", false,
                 Arrays.asList("Scrum", "PMO", "Project manager"));
         Instructor instructor4 = new Instructor( "Rosemary", 4,
-                "Architect", "F", true,
+                "Architect", "F", false,
                 Arrays.asList("Scrum", "Agile development", ""));
 
         return Arrays.asList(instructor1, instructor2, instructor3, instructor4);
