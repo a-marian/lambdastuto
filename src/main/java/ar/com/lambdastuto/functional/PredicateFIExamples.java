@@ -1,4 +1,4 @@
-package ar.com.lambdastuto.dunctional;
+package ar.com.lambdastuto.functional;
 
 import java.util.function.Predicate;
 
