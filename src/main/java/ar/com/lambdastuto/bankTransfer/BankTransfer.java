@@ -10,6 +10,7 @@ public class BankTransfer {
 
     public static void main(String[] args) {
 
+
         AccountFactory accountFactory = BankAccount::new;
         BankAccount studentAccount = accountFactory.getBankAccount(1, 5000, "Geronimo");
         BankAccount universityAccount = accountFactory.getBankAccount(2, 7000, "Antonio");
