@@ -18,6 +18,7 @@ public class StreamsPRactice {
 
         List<Instructor> instructorList = Instructors.getAll();
         Map<String, List<String>> map = instructorList.stream()
+                //.peek(System.out::println) // useful to debug
                 .filter(predicate1)
                 .filter(predicate2)
                 .collect(Collectors.toMap(Instructor::getName, Instructor::getCourses));
