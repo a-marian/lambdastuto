@@ -2,9 +2,14 @@ package ar.com.lambdastuto.streams;
 
 import ar.com.lambdastuto.functional.Instructor;
 import ar.com.lambdastuto.functional.Instructors;
-
-import java.util.List;
 import java.util.Optional;
+
+/**
+ * The findAny() and findFirst() methods return an elelment of the stream unless the stream is empty.
+ * If the stream is empty, they return an empty Optional
+ * findAny() can return any element of the stream
+ * findFirst(), it commonly returns the first element.
+ * */
 
 public class StreamsFindFirstAny {
 
